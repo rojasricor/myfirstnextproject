@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Market - Richxrx page",
-};
+  title: 'Market - Richxrx page',
+}
 
 function Market() {
   return (
@@ -15,7 +15,7 @@ function Market() {
         <h2>Drinks</h2>
       </li>
     </ul>
-  );
+  )
 }
 
-export default Market;
+export default Market

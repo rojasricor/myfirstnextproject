@@ -1,8 +1,8 @@
-import Users from "components/Users";
+import Users from 'src/components/Users'
 
 export const metadata = {
-  title: "My special page",
-};
+  title: 'My special page',
+}
 
 function HomePage() {
   // Server component
@@ -12,7 +12,7 @@ function HomePage() {
       {/* Client component */}
       <Users />
     </section>
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage

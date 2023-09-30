@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Services - Richxrx page",
-};
+  title: 'Services - Richxrx page',
+}
 
 function Services() {
   return (
@@ -21,7 +21,7 @@ function Services() {
         <h2>Credit cards</h2>
       </li>
     </ul>
-  );
+  )
 }
 
-export default Services;
+export default Services

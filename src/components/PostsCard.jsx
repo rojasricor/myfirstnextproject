@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import Link from "next/link";
+import Link from 'next/link'
 
 function PostsCard({ post }) {
   return (
@@ -13,7 +13,7 @@ function PostsCard({ post }) {
       <p className="text-slate-300">{post.body}</p>
       <button onClick={() => alert(post.id)}>Click</button>
     </div>
-  );
+  )
 }
 
-export default PostsCard;
+export default PostsCard

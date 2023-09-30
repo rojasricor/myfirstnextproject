@@ -1,4 +1,10 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
+
 function AboutPage() {
+  const router = useRouter()
+
   return (
     <div>
       <h1>About Us</h1>
@@ -15,8 +21,19 @@ function AboutPage() {
         placeat officia. Minima dolorem cum blanditiis error veniam magnam
         voluptatibus recusandae quo itaque quisquam!
       </p>
+
+      <button
+        className="bg-sky-400 px-3 py-2 rounded-md"
+        onClick={() => {
+          // here we executing more code...
+
+          router.push('/')
+        }}
+      >
+        Click Me
+      </button>
     </div>
-  );
+  )
 }
 
-export default AboutPage;
+export default AboutPage

@@ -1,16 +1,16 @@
-import Posts from "../page";
-import { Suspense } from "react";
+import Posts from '../page'
+import { Suspense } from 'react'
 
 async function loadPost(id) {
   const res = await fetch(
-    "https://jsonplaceholder.typicode.com/posts/".concat(id)
-  );
-  const data = await res.json();
-  return data;
+    'https://jsonplaceholder.typicode.com/posts/'.concat(id),
+  )
+  const data = await res.json()
+  return data
 }
 
 async function Post({ params }) {
-  const post = await loadPost(params.postId);
+  const post = await loadPost(params.postId)
 
   return (
     <section>
@@ -25,7 +25,7 @@ async function Post({ params }) {
         <Posts />
       </Suspense>
     </section>
-  );
+  )
 }
 
-export default Post;
+export default Post

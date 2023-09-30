@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Products - Richxrx page",
-};
+  title: 'Products - Richxrx page',
+}
 
 function Products() {
   return (
@@ -18,7 +18,7 @@ function Products() {
         <h2>Flies</h2>
       </li>
     </ul>
-  );
+  )
 }
 
-export default Products;
+export default Products
